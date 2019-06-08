@@ -15,7 +15,6 @@ namespace _06.Demo
             var task1 = Task.Factory.StartNew(Test);
             var task2 = Task.Factory.StartNew(Test);
             var task3 = Task.Factory.StartNew(Test);
-
             Task.WaitAll(task1, task2);
 
 
